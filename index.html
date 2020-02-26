@@ -3,10 +3,115 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/0613a9e925.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Front End 2020</title>
   </head>
   <body>
-    <h1>Front end 2020</h1>
+    <section class="header">
+      <header class="navbar">
+        <img src="Icons/code-solid.svg" class="icon-menu" alt="code icon" />
+        <nav>
+          <ul>
+            <a href="">
+              <li>Resumen</li>
+            </a>
+            <a href="">
+              <li>Descargar CV</li>
+            </a>
+            <a href="">
+              <li>Tecnologias</li>
+            </a>
+            <a href="">
+              <li>Proyectos</li>
+            </a>
+            <a href="">
+              <li>Contacto</li>
+            </a>
+          </ul>
+        </nav>
+      </header>
+      <div class="introduction">
+        <h1>
+          Desarrollo de Front-end UX / UI
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae odio
+          molestias ab sapiente, natus facilis nulla pekis casu troke kiuto.
+        </p>
+        <a href="#resumen">
+          <button class="btn-outline">
+            CONOCE MÁS
+          </button>
+        </a>
+      </div>
+    </section>
+    <section class="resumen" id="resumen">
+      <div class="subtitulo">
+        <p class="bold naranja">CONOCE MÁS</p>
+        <h2 class="bold">Las tecnologias que utilizo</h2>
+      </div>
+      <div class="habilidades">
+        <article class="habilidad">
+          <img src="Icons/004-html.svg" class="icon-skill" alt="Icon HTML" />
+          <h3>Maquetación en HTML5</h3>
+          <p>
+            La estructura de un sitio web comienza desde lo mas basico y a su
+            vez lo mas escencial, nuestro amigo HTML
+          </p>
+        </article>
+        <article class="habilidad">
+          <img src="Icons/003-css.svg" class="icon-skill" alt="Icon CSS" />
+          <h3>Estilos con CSS</h3>
+          <p>
+            Formas Colores y muchas Animaciones Los Estilos los aplico con CSS y
+            estoy evaluando empezar a utiliar Sass!!
+          </p>
+        </article>
+        <article class="habilidad">
+          <img src="Icons/002-js.svg" class="icon-skill" alt="Icon JS" />
+          <h3>JavaScript</h3>
+          <p>
+            ¿Hay algo mas divertido que JavaScript? JavaScript es nuestro mejor
+            amigo para aplicar dinamismo a nuestra web
+          </p>
+        </article>
+        <article class="habilidad">
+          <img src="Icons/005-browser.svg" class="icon-skill" alt="Icon html" />
+          <h3>Multi-Navegadores</h3>
+          <p>
+            Nuestro sitio debe poder visualizarse de la misma manera siempre sin
+            importar el navegador web elegido. Firefox, Chrome o incluso
+            Internet Explorer
+          </p>
+        </article>
+        <article class="habilidad">
+          <img src="Icons/007-screens.svg" class="icon-skill" alt="Icon html" />
+          <h3>Web Responsive</h3>
+          <p>
+            Con este paradigma la web se adapta a distintos tamaños de pantalla
+            y es posible visualizarla correctamente desde una computadora, una
+            tablet, o un celular
+          </p>
+        </article>
+        <article class="habilidad">
+          <img
+            src="Icons/006-mobile-web.svg"
+            class="icon-skill"
+            alt="Icon html"
+          />
+          <h3>Mobile First</h3>
+          <p>
+            Es una metodologia la cual me gusta mucho implementar ya que es
+            mucho mas sencillo reubicar los elementos en un espacio que se
+            amplia y no en uno que se reduce
+          </p>
+        </article>
+      </div>
+    </section>
   </body>
 </html>
