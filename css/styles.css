@@ -55,6 +55,17 @@ a {
   margin: 0 25px;
   font-size: 1.1em;
 }
+.btn-primary {
+  color: #ffffff;
+  background-color: #ff8400;
+  border: solid 2px #ff8400;
+  border-radius: 3px;
+  font-size: 1.2em;
+  font-family: Helvetica-neue-bold;
+  padding: 14px 40px;
+  opacity: 1;
+}
+
 .btn-outline {
   color: #ffffff;
   background-color: transparent;
@@ -70,20 +81,26 @@ a {
   opacity: 1;
   transition: 200ms;
 }
+.btn-primary:hover {
+  opacity: 0.9;
+  transition: 200ms;
+}
 
 .introduction {
   font-family: Helvetica-neue-ligth;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
   margin-left: 12%;
-  margin-top: 65px;
+  height: 80vh;
   width: 45%;
 }
 .introduction p {
   font-size: 1.3em;
   line-height: 1.6;
   width: 92%;
+  margin-top: 50px;
 }
 
 .introduction a {
@@ -127,4 +144,15 @@ a {
 
 .icon-skill {
   width: 65px;
+}
+
+.cv {
+  background-color: #f1f1f1;
+}
+.cv-container {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica-neue-ligth;
+  width: 50%;
 }
