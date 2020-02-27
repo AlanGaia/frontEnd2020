@@ -158,8 +158,18 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  font-family: Helvetica-neue-ligth;
   width: 45%;
+}
+.cv-container h2 {
+  font-family: Helvetica-neue-bold;
+  font-size: 3em;
+}
+
+.cv-container p {
+  font-family: Helvetica-neue;
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 80px;
 }
 
 .imagen-bg {
