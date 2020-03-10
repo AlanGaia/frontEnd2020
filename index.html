@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <script
       src="https://kit.fontawesome.com/0613a9e925.js"
@@ -14,9 +15,14 @@
   <body>
     <section class="header">
       <header class="navbar">
-        <img src="Icons/code-solid.svg" class="icon-menu" alt="code icon" />
-        <nav>
+        <div id="menu-icon">
+          <i class="fas fa-bars fa-3x" onclick="showMenu();"></i>
+        </div>
+        <nav class="menu ">
           <ul>
+            <li>
+              <i class="fas fa-times " onclick="hideMenu();"></i>
+            </li>
             <a href="">
               <li>Resumen</li>
             </a>
@@ -52,8 +58,8 @@
     </section>
     <section class="resumen" id="resumen">
       <div class="subtitulo">
-        <p class="bold naranja">CONOCE MÁS</p>
-        <h2 class="bold">Las tecnologias que utilizo</h2>
+        <p class="">CONOCE MÁS</p>
+        <h2 class="">Las tecnologias que utilizo</h2>
       </div>
       <div class="habilidades">
         <article class="habilidad">
@@ -117,7 +123,11 @@
       <div class="image-container-cv">
         <div class="container-bg">
           <img src="images/mobile-bg.png" class="imagen-bg" alt="" />
-          <img src="images/29045.jpg" class="imagen-content" alt="cv diseño " />
+          <img
+            src="images/futuro-cv.jpg"
+            class="imagen-content"
+            alt="cv diseño "
+          />
         </div>
       </div>
       <div class="cv-container">
@@ -131,5 +141,6 @@
         <button class="btn-primary">DESCARGAR CV</button>
       </div>
     </section>
+    <script src="js/app.js"></script>
   </body>
 </html>
