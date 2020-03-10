@@ -34,18 +34,70 @@ a {
   );
   color: #ffffff;
 }
+
+/* MENU DESPLEGABLE  */
+
 .menu {
   display: none;
   position: absolute;
-  background-color: black;
+  background-color: rgb(255, 144, 53);
   width: 100%;
+  justify-content: center;
+  z-index: 10;
+  height: 100vh;
+}
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.menu ul li {
+  width: 100%;
+  font-size: 2em;
+  text-align: center;
+  transition: 0.4s;
+  transition: ease-in;
+}
+.menu ul li:hover {
+  border-bottom: #ffffff 2px solid;
+  width: 100%;
+  font-size: 2.5em;
 }
 
 .navbar {
-  background-color: black;
+  background-color: transparent;
   position: relative;
   display: flex;
   justify-content: flex-end;
+}
+
+/* PRESENTACION INDEX  */
+
+.introduction {
+  font-family: Helvetica-neue-ligth;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.introduction p {
+  font-size: 1.3em;
+  line-height: 1.6;
+  width: 92%;
+  margin-top: 50px;
+}
+
+.introduction a {
+  margin-top: 60px;
+}
+
+.introduction h1 {
+  font-family: Helvetica-neue-bold;
+  font-size: 2em;
 }
 
 .btn-primary {
@@ -79,31 +131,7 @@ a {
   transition: 200ms;
 }
 /* 
-  .introduction {
-    font-family: Helvetica-neue-ligth;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin-left: 12%;
-    height: 80vh;
-    width: 45%;
-  }
-  .introduction p {
-    font-size: 1.3em;
-    line-height: 1.6;
-    width: 92%;
-    margin-top: 50px;
-  }
-
-  .introduction a {
-    margin-top: 60px;
-  }
-
-  .introduction h1 {
-    font-family: Helvetica-neue-bold;
-    font-size: 3em;
-  }
+  
   .resumen {
     background-color: #ffffff;
   }

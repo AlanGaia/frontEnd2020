@@ -3,35 +3,26 @@ const MENU = document.querySelector(".menu");
 const ICON = document.getElementById("menu-icon");
 
 function showMenu() {
-  //animación de salida del icono
-  ICON.classList.add("animated", "fadeOutUp");
-  // y entrada del menu
-  MENU.style.display = "flex";
-  MENU.classList.add("animated", "fadeInDown");
-  // //La animación termina y aplico reset a las clases
-  ICON.addEventListener("animationend", function() {
-    ICON.classList.remove("animated", "fadeOutUp");
-    ICON.style.display = "none";
-    MENU.classList.remove("animated", "fadeInDown");
-  });
+  // RESET ICON - MENU CLASES
+  ICON.classList.remove("fadeInDown");
+  MENU.classList.remove("fadeOutUp");
 
-  // MENU.addEventListener("animationend", function() {
-  //   MENU.classList.remove("animated", "fadeInDown");
-  //   MENU.style.display = "flex";
-  // });
+  //Animación de salida del icono
+  ICON.classList.add("fadeOutUp");
+
+  //Menu Display:(none => flex) & Animación de Entrada
+  MENU.style.display = "flex";
+  MENU.classList.add("fadeInDown");
 }
 
 function hideMenu() {
-  //animación de salida del menu
-  MENU.classList.add("animated", "fadeOutUp");
-  //animacion de entrada del icono
-  ICON.classList.add("animated", "fadeInUp");
-  ICON.style.display = "flex";
+  // RESET ICON - MENU CLASES
+  MENU.classList.remove("fadeInDown");
+  ICON.classList.remove("fadeOutUp");
 
-  //La animación termina y aplico reset a las clases
-  MENU.addEventListener("animationend", function() {
-    MENU.classList.remove("animated", "fadeOutUp");
-    MENU.style.display = "none";
-    ICON.classList.remove("animated", "fadeInUp");
-  });
+  //Animación de salida del menu
+  MENU.classList.add("fadeOutUp");
+
+  //Animación de entrada del icono
+  ICON.classList.add("fadeInDown");
 }
