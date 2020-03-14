@@ -8,9 +8,6 @@ a {
     text-decoration: none;
     color: inherit;
   }
-html {
-    scroll-behavior: smooth;
-  }
 
   /*------------- HEADER / Presentacion -----------*/
   
@@ -73,14 +70,14 @@ html {
     font-family: Helvetica-neue-ligth;
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 20px;
   }
   .introduction p {
     font-size: 1.3em;
     line-height: 1.6;
     width: 92%;
-    margin-top: 50px;
+    margin-top: 10px;
   }
   
   .introduction a {
@@ -91,7 +88,6 @@ html {
     font-size: 2em;
   }
   .alanGaia{
-    font-family: Helvetica-neue-bold;
     text-decoration: underline;
   }
   
