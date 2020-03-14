@@ -154,4 +154,56 @@ html {
 .icon-skill {
   width: 65px; }
 
+.cv {
+  background-color: #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+.image-container-cv {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center; }
+
+.cv-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center; }
+
+.cv-container h2 {
+  font-family: Helvetica-neue-bold;
+  font-size: 2em; }
+
+.cv-container p {
+  font-family: Helvetica-neue;
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 80px; }
+
+.imagen-bg {
+  top: 0;
+  bottom: 0;
+  width: 400px;
+  position: relative; }
+
+.imagen-content {
+  position: absolute;
+  width: 143px;
+  top: 62px;
+  left: 128px;
+  height: 256px; }
+
+.imagen-cv {
+  width: 75%;
+  height: 100%;
+  max-width: 250px;
+  max-height: 400px; }
+
+.container-bg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 /*# sourceMappingURL=styles.css.map */
