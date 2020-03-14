@@ -17,6 +17,9 @@ a {
   text-decoration: none;
   color: inherit; }
 
+html {
+  scroll-behavior: smooth; }
+
 /*------------- HEADER / Presentacion -----------*/
 .header {
   min-height: 100vh;
@@ -66,8 +69,9 @@ a {
   font-family: Helvetica-neue-ligth;
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
-  margin-left: 20px; }
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20px; }
 
 .introduction p {
   font-size: 1.3em;
