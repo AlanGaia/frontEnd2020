@@ -1,0 +1,15 @@
+/*------------- Typography ----------*/
+@font-face {
+  font-family: "Helvetica-neue-ligth";
+  src: url("../fonts/HelveticaNeueLt.ttf"); }
+@font-face {
+  font-family: "Helvetica-neue";
+  src: url("../fonts/HelveticaNeue.ttf"); }
+@font-face {
+  font-family: "Helvetica-neue-bold";
+  src: url("../fonts/HelveticaNeueBd.ttf"); }
+@font-face {
+  font-family: "Helvetica-neue-med";
+  src: url("../fonts/HelveticaNeueMed.ttf"); }
+
+/*# sourceMappingURL=variables.css.map */

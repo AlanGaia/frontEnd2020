@@ -1,158 +1,162 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <script
-      src="https://kit.fontawesome.com/0613a9e925.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Front End 2020</title>
-  </head>
-  <body>
-    <section class="header">
-      <header class="navbar">
-        <div id="menu-icon" class="animated">
-          <i class="fas fa-bars fa-3x" onclick="showMenu();"></i>
-        </div>
-        <nav class="menu animated">
-          <ul>
-            <li>
-              <i class="fas fa-times " onclick="hideMenu();"></i>
-            </li>
-            <li>
-              <a href="">
-                Resumen
-              </a>
-            </li>
-            <li>
-              <a href="">
-                Descargar CV
-              </a>
-            </li>
-            <li>
-              <a href="">
-                Tecnologias
-              </a>
-            </li>
-            <li>
-              <a href="">
-                Proyectos
-              </a>
-            </li>
-            <li>
-              <a href="">
-                Contacto
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <div class="introduction">
-        <h1 class="animated bounceInLeft ">
-          Hola!<br />
-          Yo soy <strong>Alan Gaia</strong>
-          y este es mi sitio web.
-        </h1>
-        <p class="animated bounceInLeft delay-1s slow">
-          En este sitio vas a encontrar información sobre mí, a que me dedico,mi
-          experiencia, y mi futuro en la tecnología entre otras cosas
-        </p>
-        <a href="#resumen">
-          <button class="btn-outline animated bounceInLeft delay-2s slower">
-            CONOCE MÁS
-          </button>
-        </a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://kit.fontawesome.com/0613a9e925.js" crossorigin="anonymous"></script>
+  <title>Front End 2020</title>
+</head>
+
+<body>
+  <section class="header">
+    <header class="navbar">
+      <div id="menu-icon" class="animated">
+        <i class="fas fa-bars fa-3x" onclick="showMenu();"></i>
       </div>
-    </section>
-    <section class="resumen" id="resumen">
-      <div class="subtitulo">
-        <p class="">CONOCE MÁS</p>
-        <h2 class="">Las tecnologias que utilizo</h2>
-      </div>
-      <div class="habilidades">
-        <article class="habilidad">
-          <img src="Icons/004-html.svg" class="icon-skill" alt="Icon HTML" />
-          <h3>Maquetación en HTML5</h3>
-          <p>
-            La estructura de un sitio web comienza desde lo mas basico y a su
-            vez lo mas escencial, nuestro amigo HTML
-          </p>
-        </article>
-        <article class="habilidad">
-          <img src="Icons/003-css.svg" class="icon-skill" alt="Icon CSS" />
-          <h3>Estilos con CSS</h3>
-          <p>
-            Formas Colores y muchas Animaciones Los Estilos los aplico con CSS y
-            estoy evaluando empezar a utiliar Sass!!
-          </p>
-        </article>
-        <article class="habilidad">
-          <img src="Icons/002-js.svg" class="icon-skill" alt="Icon JS" />
-          <h3>JavaScript</h3>
-          <p>
-            ¿Hay algo mas divertido que JavaScript? JavaScript es nuestro mejor
-            amigo para aplicar dinamismo a nuestra web
-          </p>
-        </article>
-        <article class="habilidad">
-          <img src="Icons/005-browser.svg" class="icon-skill" alt="Icon html" />
-          <h3>Multi-Navegadores</h3>
-          <p>
-            Nuestro sitio debe poder visualizarse de la misma manera siempre sin
-            importar el navegador web elegido. Firefox, Chrome o incluso
-            Internet Explorer
-          </p>
-        </article>
-        <article class="habilidad">
-          <img src="Icons/007-screens.svg" class="icon-skill" alt="Icon html" />
-          <h3>Web Responsive</h3>
-          <p>
-            Con este paradigma la web se adapta a distintos tamaños de pantalla
-            y es posible visualizarla correctamente desde una computadora, una
-            tablet, o un celular
-          </p>
-        </article>
-        <article class="habilidad">
-          <img
-            src="Icons/006-mobile-web.svg"
-            class="icon-skill"
-            alt="Icon html"
-          />
-          <h3>Mobile First</h3>
-          <p>
-            Es una metodologia la cual me gusta mucho implementar ya que es
-            mucho mas sencillo reubicar los elementos en un espacio que se
-            amplia y no en uno que se reduce
-          </p>
-        </article>
-      </div>
-    </section>
-    <section class="cv">
-      <div class="image-container-cv">
-        <div class="container-bg">
-          <img src="images/mobile-bg.png" class="imagen-bg" alt="" />
-          <img
-            src="images/futuro-cv.jpg"
-            class="imagen-content"
-            alt="cv diseño "
-          />
-        </div>
-      </div>
-      <div class="cv-container">
-        <h2>Mi futuro en la tecnologia y el desarrollo web</h2>
+      <nav class="menu animated">
+        <ul>
+          <li>
+            <i class="fas fa-times " onclick="hideMenu();"></i>
+          </li>
+          <li>
+            <a href="">
+              Resumen
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Descargar CV
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Tecnologias
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Proyectos
+            </a>
+          </li>
+          <li>
+            <a href="">
+              Contacto
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="introduction">
+      <h1 class="animated bounceInLeft ">
+        Hola!<br />
+        Yo soy <strong><a href="https://www.linkedin.com/in/alan-gaia/" class="alanGaia" target="_blank">Alan
+            Gaia</a></strong>
+        y este es mi sitio web.
+      </h1>
+      <p class="animated bounceInLeft delay-1s slow">
+        En este sitio vas a encontrar información sobre mí, a que me dedico,mi
+        experiencia, y mi futuro en la tecnología entre otras cosas
+      </p>
+      <a href="#resumen">
+        <button class="btn-outline animated bounceInLeft delay-2s slower">
+          CONOCE MÁS
+        </button>
+      </a>
+    </div>
+  </section>
+  <section class="resumen" id="resumen">
+    <div class="contenedor-subtitulo">
+      <p class="subtitulo">CONOCE MÁS</p>
+      <h2 class="">Tecnologias que utilizo</h2>
+    </div>
+    <div class="habilidades">
+      <article class="habilidad" data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="800"
+        data-aos-offset="300">
+        <img src="Icons/004-html.svg" class="icon-skill" alt="Icon HTML" />
+        <h3>Maquetación en HTML5</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque,
-          accusamus? Animi corrupti fuga omnis deleniti asperiores atque
-          recusandae veniam cupiditate nostrum nihil saepe itaque ipsa dolore,
-          pariatur tenetur impedit natus?
+          La estructura de un sitio web comienza desde lo mas basico y a su
+          vez lo mas escencial, nuestro amigo HTML
         </p>
-        <button class="btn-primary">DESCARGAR CV</button>
+      </article>
+      <article class="habilidad" data-aos="fade-left" data-aos-easing="ease-in-sine" data-aos-duration="800"
+        data-aos-offset="300">
+        <img src="Icons/003-css.svg" class="icon-skill" alt="Icon CSS" />
+        <h3>Estilos con CSS</h3>
+        <p>
+          Formas Colores y muchas Animaciones Los Estilos los aplico con CSS y
+          estoy usando por primera vez Sass!!
+        </p>
+      </article>
+      <article class="habilidad" data-aos="flip-down" data-aos-easing="ease-in-sine" data-aos-duration="800"
+        data-aos-offset="500">
+        <img src="Icons/002-js.svg" class="icon-skill" alt="Icon JS" />
+        <h3>JavaScript</h3>
+        <p>
+          ¿Hay algo mas divertido que JavaScript? JavaScript es nuestro mejor
+          amigo para aplicar dinamismo a nuestra web
+        </p>
+      </article>
+      <article class="habilidad" data-aos="flip-left" data-aos-easing="ease-in-sine" data-aos-duration="800"
+        data-aos-offset="500">
+        <img src="Icons/005-browser.svg" class="icon-skill" alt="Icon html" />
+        <h3>Multi-Navegadores</h3>
+        <p>
+          Nuestro sitio debe poder visualizarse de la misma manera siempre sin
+          importar el navegador web elegido. Firefox, Chrome o incluso
+          Internet Explorer
+        </p>
+      </article>
+      <article class="habilidad" data-aos="zoom-in" data-aos-easing="ease-in-sine" data-aos-duration="800"
+        data-aos-offset="500">
+        <img src="Icons/007-screens.svg" class="icon-skill" alt="Icon html" />
+        <h3>Web Responsive</h3>
+        <p>
+          Con este paradigma la web se adapta a distintos tamaños de pantalla
+          y es posible visualizarla correctamente desde una computadora, una
+          tablet, o un celular
+        </p>
+      </article>
+      <article class="habilidad" data-aos="zoom-out" data-aos-easing="ease-in-sine" data-aos-duration="800"
+        data-aos-offset="500">
+        <img src="Icons/006-mobile-web.svg" class="icon-skill" alt="Icon html" />
+        <h3>Mobile First</h3>
+        <p>
+          Es una metodologia la cual me gusta mucho implementar ya que es
+          mucho mas sencillo reubicar los elementos en un espacio que se
+          amplia y no en uno que se reduce
+        </p>
+      </article>
+    </div>
+  </section>
+  <section class="cv">
+    <div class="image-container-cv">
+      <div class="container-bg">
+        <img src="images/mobile-bg.png" class="imagen-bg" alt="" />
+        <img src="images/futuro-cv.jpg" class="imagen-content" alt="cv diseño " />
       </div>
-    </section>
-    <script src="js/app.js"></script>
-  </body>
+    </div>
+    <div class="cv-container">
+      <h2>Mi futuro en la tecnologia y el desarrollo web</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque,
+        accusamus? Animi corrupti fuga omnis deleniti asperiores atque
+        recusandae veniam cupiditate nostrum nihil saepe itaque ipsa dolore,
+        pariatur tenetur impedit natus?
+      </p>
+      <button class="btn-primary">DESCARGAR CV</button>
+    </div>
+  </section>
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="js/app.js"></script>
+</body>
+
 </html>
